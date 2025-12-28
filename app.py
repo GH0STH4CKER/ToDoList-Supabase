@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, jsonify
 from supabase import create_client
 
 #------------------------------
-SUPABASE_URL = "https://vvukbjtvmlnhnkkxnsyc.supabase.co"
+SUPABASE_URL = ""
 SUPABASE_KEY = ""
 #-----------------------------
 supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
